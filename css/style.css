@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+.container{
+	width:960px;
+	margin:0 auto;
+}
+.login{
+	background:url(../images/2.jpg) center center no-repeat;
+	background-size:cover;
+	height:657px;
+	
+	overflow:hidden;
+}
+form{
+	color:#fff;
+	background:#transparent;
+	border:1px solid #333;
+	border-radius:5px;
+	margin:20% auto;
+	width:40%;
+	padding:20px;
+	box-shadow:0 0 20px #000;
+	
+	
+}
+form input{
+	padding:10px;
+	display:block;
+	width:100%;
+	margin-bottom:20px;
+}
+form input[type="button"]{
+	background:#0099cc;
+	border:0;
+	color:#fff;
+	
+}
+.login h2{
+	text-align:center;
+	margin:20px 0;
+	
+}
